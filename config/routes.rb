@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   post '/users' => 'users#create'
 
+  get '/password' => 'password#new'
+
   # get 'app_dashboard/index'
   # get 'home/index'
 end
