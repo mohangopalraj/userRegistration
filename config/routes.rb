@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   post '/login' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
 
+  post '/users' => 'users#create'
+
   # get 'app_dashboard/index'
   # get 'home/index'
 end
